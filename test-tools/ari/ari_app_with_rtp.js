@@ -25,7 +25,7 @@ process.on('uncaughtException', (err) => {
 });
 
 // ARI connection details
-const ARI_URL  = 'http://127.0.0.1:8088',    // URL where Asterisk's ARI server is running (localhost:8088)
+const ARI_URL  = 'http://57.128.223.231:8088',    // URL where Asterisk's ARI server is running (localhost:8088)
       ARI_USER = 'asterisk',                 // ARI username for authentication
       ARI_PASS = 'asterisk',                 // ARI password for authentication
       ARI_APP  = 'stasis_app';               // Name of the ARI application to handle calls

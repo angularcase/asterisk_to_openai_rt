@@ -1,0 +1,12 @@
+[2025-05-06T21:10:34.902Z] INFO: ARI application "stasis_app" started.
+[2025-05-06T21:10:48.412Z] INFO: SIP channel started: 1746565846.0
+[2025-05-06T21:10:48.481Z] INFO: Channel 1746565846.0 answered
+[2025-05-06T21:10:48.487Z] INFO: RTP server started on port 12000, recording to call_1746565848481.wav
+[2025-05-06T21:10:48.506Z] INFO: ExternalMedia channel started: 1746565846.1
+[2025-05-06T21:10:48.507Z] INFO: ExternalMedia channel 1746565846.1 created and mapped to bridge 528525c8-30b7-4ea3-b5b3-d2fd7ee2fd49
+[2025-05-06T21:10:49.043Z] INFO: ExternalMedia channel 1746565846.1 added to bridge 528525c8-30b7-4ea3-b5b3-d2fd7ee2fd49
+[2025-05-06T21:10:58.491Z] INFO: Recording stopped after 10 seconds, file saved: call_1746565848481.wav
+[2025-05-06T21:10:58.992Z] INFO: Starting playback...
+[2025-05-06T21:11:06.758Z] INFO: Bridge 528525c8-30b7-4ea3-b5b3-d2fd7ee2fd49 destroyed
+[2025-05-06T21:11:06.758Z] INFO: RTP server stopped as no active channels remain.
+[2025-05-06T21:11:06.759Z] INFO: Channel ended: 1746565846.0

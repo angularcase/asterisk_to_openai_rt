@@ -3,7 +3,8 @@ require('dotenv').config();
 const WebSocket = require('ws');
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-const REALTIME_API_URL = 'wss://api.openai.com/v1/realtime?model=gpt-4o';
+// const REALTIME_API_URL = 'wss://api.openai.com/v1/realtime?model=gpt-4o';
+const REALTIME_API_URL = 'wss://api.openai.com/v1/realtime?model=gpt-4o-realtime-preview-2024-12-17';
 
 async function checkRealtimeAccess() {
     return new Promise((resolve, reject) => {

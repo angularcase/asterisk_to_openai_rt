@@ -11,11 +11,13 @@
   "license": "MIT",
   "dependencies": {
     "ari-client": "^2.2.0",
-    "ws": "^8.18.0",
-    "winston": "^3.14.2",
-    "chalk": "^4.1.2",
     "async": "^3.2.6",
-    "dotenv": "^16.4.5"
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "openai": "^4.97.0",
+    "wav": "^1.0.2",
+    "winston": "^3.14.2",
+    "ws": "^8.18.0"
   },
   "engines": {
     "node": ">=14.0.0"
